@@ -1,0 +1,342 @@
+/*
+:root {
+	--main-bg-color: #fff
+	--main-txt-color: #fff
+	--header-bg-color: #fff
+	--header-txt-color: #fff
+	}
+body {
+		background-color: var(--main-bg-color);
+		color: var(--main-txt-color);
+	}
+header {
+		  background-color: var(--header-bg-color);
+		  color: var(--header-txt-color);
+		}
+or class="header"
+.header {
+		  --header-bg-color: #fff;
+		  --header-txt-color: #fff
+}
+.header {
+		  background-color: var(--header-bg-color);
+		  color: var(--header-txt-color);
+		}
+.box {
+	   --box-shadow-h-offset: 5px;
+	   --box-shadow-v-offset: 10px;
+	   --box-shadow-blur: 6px;
+	   --box-main-color: red
+	}
+.box {
+	   box-shadow:
+		var(--box-shadow-h-offset);
+		var(--box-shadow-v-offset);
+		var(--box-shadow-blur);
+		var(--box-main-color)
+	}
+.box p {
+		--box-main-width: 90px
+		--box-main-color: white;
+		width: var(--box-main-width);
+		color: var(--box-main-color);
+				or
+		color: var(--box-p-color, white); width: var(--box-p-width, 90px) ;   -->   without use --box-main-color: white
+       }
+*/
+body{
+	background-image:url('Isniper_Girl.jpg');
+	background-size:cover;
+	background-position:center;
+	height:3460px;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	perspective:900px /*this for translate3dorZ*/
+	}
+.bo p{
+	display:flex;
+	justify-content:space-around;
+	flex-flow:row wrap
+	}
+.bo p img{
+		  transition:.70s;
+		  border-radius:40px;
+		  flex-grow:0;
+		  flex-shrink:0
+}	  
+.bo p img:hover{transform:translateZ(-20px);opacity:0.8}
+.bo1{
+	display:block;
+	margin:0 auto;
+	border-radius:100px
+	}
+h1{text-align:center;color:white}
+.PlutoniumT6{
+			 font-size:30px;
+			 text-align:center;
+			 margin:0 0 -5px 0;
+			 color:black;
+			 font-style:italic;
+			 font-weight:bold;
+			 text-shadow:0 0 20px #ff005b
+			}
+.PlutoniumT6 span{color:#ff005b;opacity:0.9}
+/*p{color:red;font-size:30px;font-family:Tahoma or Roboto, Arial, sans-serif;font-style:italic;font-weight:bold}*/
+/*p span{font-size;larger or xx-small;text-overflow:allipsis"...."with overflow:hiddin}*/
+.pluto{
+		display:block;
+		margin:0 auto;
+		animation-direction:alternate;
+		animation:moving 90000s infinite linear
+	  }
+@keyframes moving{
+	
+	100%{
+		transform:rotate(1000000deg)
+	}
+	
+}
+.news{
+		text-align:center
+	 }
+.news a{
+		font-size:25px;
+		color:white;
+		text-decoration:none;
+		transition:.55s
+	 }
+.news a:hover{text-decoration:none;color:#454a46}
+iframe{
+		display:block;
+		margin:0 auto;
+		opacity:0.8
+	  }
+.description{
+			  display:block;
+			  text-align:center;
+			  margin:30px 0 0 0
+			}
+.description a{
+				text-decoration:none;
+				color:white;
+				font-size:25px;
+				transition:.55s
+			   }
+.description a:hover{text-decoration:none;color:#454a46}
+.des{
+	display:block;
+	text-align:center;
+	margin:5px auto;
+	font-size:21px;
+	line-height:25px;
+	max-width:900px;
+	color:white;
+	font-style:italic
+	}
+.background
+	{
+		font-size:25px;
+		color:white;
+		font-weight:bold;
+		text-align:center;
+		text-decoration:none;
+		transition:.55s
+	}
+.background:hover{text-decoration:none;color:#454a46}
+.background-pic{
+				 display:block;
+				 margin:0 auto;
+				 /**perspective-origin:center**/
+				 transition:all .5s ease-in-out;
+				 border-radius:20px
+			    }
+.background-pic:hover{  
+					  transform:scale(0.9,0.9);
+					  border-radius:1px
+					  }
+.more{
+		display:block;
+		text-align:center
+	 }
+.more a{	
+		background-color:;
+		color:white;
+		padding:10px;
+		font-size:15px;
+		letter-spacing:10px;
+		border-radius:100px;
+		border:2px solid gray;
+		text-decoration:none;
+		transition:.55s;
+		transition:all is ease-in-out;
+		box-shadow:0 0 20px #ff005b
+		}
+.more a span{opacity:0.7;color:#ff005b}
+.more a:hover{
+			color:#FF6347;
+			text-decoration:none;
+			box-shadow:0px 0px 20px white;
+			text-shadow:10px 5px 4px white
+			}
+.status{
+		margin-top:65px;
+		text-align:center
+	   }
+.status a{
+		font-size:30px;
+		color:black;
+		text-decoration:none;
+		text-shadow:0 0 20px white;
+		transition:.40s
+		}
+.status a:hover{text-shadow:0 0 20px red;text-decoration:none;color:#454a46}
+.update p{
+			margin:0 auto;
+			max-width:900px;
+			color:white;
+			font-size:18px;
+			box-sizing:border-box;
+			font-family: Roboto, Arial, sans-serif;
+			text-align:center
+		}
+.index{
+		display:block;
+		margin:20px auto;
+		animation-direction:alternate;
+		animation:moving 90000s infinite linear
+		}
+@keyframes moving{
+	
+	100%{
+		transform:rotate(1000000deg)
+	}
+	
+}
+#support{
+		  background-color:;
+		  padding:10px;
+		  color:white;
+		  font-size:15px;
+		  letter-spacing:4px;
+		  border-radius:100px;
+		  border:2px solid gray;
+		  text-decoration:none;
+		  transition:.55s;
+		  transition:all is ease-in-out;
+	      box-shadow:0 0 20px #ff005b
+		}
+#support span{opacity:0.7;color:#ff005b}
+#support:hover{
+				color:#FF6347;
+				text-decoration:none;
+				box-shadow:0px 0px 20px white;
+				text-shadow:10px 5px 4px white
+			  }
+/*
+			-----------------------------------------------------------
+			{margin:0;padding:0;box-sizing:border-box}
+			transform:rotateX/Y/Z(180deg)
+			transform:scale(5,5)
+			transform:scaleY(1.5)
+			transform:scaleX(1.5)
+			transform:scale3d(1,1,1) or scaleZ/X/Y(1) use him with rotate
+			transform:translate(5px,5px)
+			transform:translateY/X(100px)
+			transform:translate3d(xPX right,yPX down,zPX small pic or up)
+			skew(20deg,20deg)
+			skewY/X(20deg)
+			matrix3d(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0) have 16 all transform
+			transform-origin:80% 40% "zoom" or top left 
+			transform-style:preserve-3d  save 3d with backface
+			transform-backface:visible or hiddin
+			................transition use with hover.............
+			transition:all .5s ease-in-out
+			transition:width 1.5s or width 1.5s, background-color 6.1s 
+			-----
+			transition-property:width, background-color
+			transition-duration:0.5s, 1.5s
+			------
+			transition-timing-function:ease/linear/ease-in/ease-out/ease-in-out also step(4, start or end)
+			transition-delay:0/1/2s "waiting"
+			............................................
+			--------------------------------animation--------------------------------------------
+			animation:moving 5s infinite linear
+@keyframes moving{
+	0%{
+		transform:rotate(0deg)
+	}
+	50%{
+		transform:rotate(360deg)
+	}
+	100%{
+		transform:rotate(0deg)
+	}
+}
+			animation-direction:reverse/alternate/alternate-reverse
+			animation-delay:2s
+			animation-fill-mode:none/forwards "stop in 100%"/backwards "take 0%" /both "forwards & backwards"
+			animation-timing-function:ease/linear/ease-in/ease-out/ease-in-out
+           ----------------------------------------------------------------
+div{color:red
+	  height:20px;
+	  width:20px;
+	  background-color:red;
+	  background-image:url('Pluto2.png');
+	  background-repeat:no-repeat;
+	  background-attachment:fixed/scroll;
+	  background-position:50% 50%;
+	  background-size:100% 100% or cover
+	  background-clip:border-box/padding-box/content-box with padding:50px.
+	  or
+	  background:blue url('index.png') no-repeat fixed 50% 50%;
+	  letter-spacing:15px;
+	  line-height:50%;
+	  text-align:center;
+	  white-spacing:normal;
+	  words-spacing:50px;
+	  border:2px solid black;
+	  outline:2px solid gray
+	    or
+	  border-left:..........;
+	  overflow/-x/y:hidden or visible or scroll
+	  resize:both
+	  Exp:
+	  overflow-x:scroll
+	  overflow-y:hidden
+	  resize:both
+	  .......
+	  opacity: 0&0.1 to 1 
+	  visibility:hidden
+	  display:none display have none/inline/block/inline-block/flex/inline-flex "put any div in right" out the div/grid
+	  flex-direction:row"default"/row-reverse/column تحت بعض بجيبهم/column-reverse في الجهة الاخرى
+	  flex-wrap:nowrap"defualt"/wrap بنزل الكلام تحت في div /wrap-reverse العكس
+	  flex-flow:flex-direction, flex-wrap
+	  .......................
+	  flex-grow:0/1/2/3....
+	  flex-shrink:1/2/3....
+	  flex-basis:200px/.....or auto"default" size div 
+	  or
+	  flex:0 1 auto
+	  .......................
+	  Exp: flex-flow:row wrap
+	  justify-content:flex-start/flex-end/center/space-between/space-around
+	  align-items:flex-start/flex-end/center with max-height:100px
+	  align-content:flex-start/flex-end/center/space-between/space-around
+	     -----------------------------------------------------------------------
+.index{position:scroll;margin-top:0px}
+ .iindex{position:scroll;margin-bottom:100px;margin-left:1800px;margin-top:-55px}
+ -webkit-
+  -o-
+  -moz-
+  -ms-
+  ------use for words-------
+  grid-gap:10px or 20px "space from down and right like space-between" 
+  grid-column:2/4 "size"
+  grid-row:2/4 "size"
+  grid-template-columns: 1fr 1fr "like width" use for grid
+  -o-column-count:1/2/3/4....||||
+  -o-column-gap:5px|  |  | | |
+  or columns:5px 4
+  column-rule:100px solid red "fesfesfesf | fesfesfes"
+  column-span:all
+*/
