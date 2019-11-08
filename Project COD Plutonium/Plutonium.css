@@ -64,7 +64,7 @@ body{
 	  flex-grow:0;
 	  flex-shrink:0
 }	  
-.bo p img:hover{transform:translateZ(-20px);opacity:0.8}
+.bo img:hover{transform:translateZ(-20px);opacity:0.8}
 .bo1{
 	display:block;
 	margin:0 auto;
