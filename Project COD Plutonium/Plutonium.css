@@ -53,16 +53,16 @@ body{
 	background-attachment:fixed;
 	perspective:900px /*this for translate3dorZ*/
 	}
-.bo p{
-	display:flex;
-	justify-content:space-around;
-	flex-flow:row wrap
-	}
-.bo p img{
-		  transition:.70s;
-		  border-radius:40px;
-		  flex-grow:0;
-		  flex-shrink:0
+.bo{
+     display:flex;
+     justify-content:space-around;
+     flex-flow:row wrap
+}
+.bo img{
+	  transition:.70s;
+	  border-radius:40px;
+	  flex-grow:0;
+	  flex-shrink:0
 }	  
 .bo p img:hover{transform:translateZ(-20px);opacity:0.8}
 .bo1{
